@@ -13,19 +13,13 @@ type
   { TForm2 }
 
   TForm2 = class(TForm)
-    SaveButton: TButton;
-    SkipButton: TButton;
-    DelButton: TButton;
-    OutFileName: TEdit;
-    OutFileName2: TEdit;
-    OutFileName3: TEdit;
+    SaveButton,SkipButton,DelButton: TButton;
+    OutFileName,OutFileName2,OutFileName3: TEdit;
     OutID: TEdit;
-    NoViewText: TLabel;
     Image1: TImage;
+    OutPathLabel,InPathLabel,NoViewText: TLabel;
     Label1, Label2, Label3, Label4, Label5, Label6: TLabel;
     ImagePanel, ControlPanel: TPanel;
-    InPathLabel: TLabel;
-    OutPathLabel: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure DelButtonClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -41,13 +35,9 @@ type
 
 var
   Form2: TForm2;
-  InPath: string;
-  OutPath: string;
-  FrameName: string;
-  CreateFoldersFlag: boolean;
-  PromptDeletionFlag: boolean;
-  FileType: string;
-  FolderStructure: string;
+  InPath,OutPath,FrameName: string;
+  CreateFoldersFlag,PromptDeletionFlag: boolean;
+  FileType,FolderStructure: string;
   FolderTime: TDateTime;
   Fa: longint;
   FileTimeStr: string;
