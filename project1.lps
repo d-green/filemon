@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="24"/>
+        <UsageCount Value="251"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="209"/>
+        <CursorPos X="13" Y="9"/>
+        <UsageCount Value="251"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unit2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="unit2"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="230"/>
+        <UsageCount Value="251"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4261"/>
+        <CursorPos X="1" Y="4283"/>
+        <UsageCount Value="21"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\menuitem.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="264"/>
+        <CursorPos X="1" Y="271"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2603"/>
+        <CursorPos X="1" Y="2634"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="349"/>
+        <CursorPos X="1" Y="367"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2809"/>
+        <CursorPos X="1" Y="2828"/>
+        <UsageCount Value="4"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2180"/>
+        <CursorPos X="1" Y="2199"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\AppData\Local\Temp\Temp1_TrayIcon_Test.zip\TrayIcon Test\proj_trayicon_test.lpr"/>
+        <UnitName Value="proj_trayicon_test"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3534"/>
+        <CursorPos X="1" Y="3557"/>
+        <UsageCount Value="4"/>
+      </Unit10>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="147" Column="1" TopLine="113"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="135" Column="83" TopLine="115"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="121" Column="87" TopLine="116"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="222" Column="1" TopLine="186"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="147" Column="96" TopLine="110"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="145" Column="57" TopLine="125"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="144" Column="45" TopLine="124"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="147" Column="112" TopLine="128"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="145" Column="1" TopLine="127"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="150" Column="84" TopLine="125"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="149" Column="64" TopLine="130"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="150" Column="105" TopLine="130"/>
+      </Position12>
+      <Position13>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="136" Column="48" TopLine="130"/>
+      </Position13>
+      <Position14>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="138" Column="1" TopLine="120"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="134" Column="43" TopLine="106"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="135" Column="74" TopLine="115"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="144" Column="111" TopLine="115"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="130" Column="1" TopLine="112"/>
+      </Position18>
+      <Position19>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position19>
+      <Position20>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="132" Column="1" TopLine="112"/>
+      </Position20>
+      <Position21>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="134" Column="1" TopLine="112"/>
+      </Position21>
+      <Position22>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="140" Column="1" TopLine="112"/>
+      </Position22>
+      <Position23>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="136" Column="74" TopLine="112"/>
+      </Position23>
+      <Position24>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="137" Column="1" TopLine="117"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="136" Column="40" TopLine="117"/>
+      </Position25>
+      <Position26>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="142" Column="1" TopLine="118"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="216" Column="1" TopLine="179"/>
+      </Position27>
+      <Position28>
+        <Filename Value="unit2.pas"/>
+        <Caret Line="144" Column="40" TopLine="121"/>
+      </Position28>
+      <Position29>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="22" Column="1" TopLine="1"/>
+      </Position29>
+      <Position30>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="24" Column="1" TopLine="1"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="5">
+      <Item1>
+        <Expression Value="PromptDeletionFlag"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Confirmed"/>
+      </Item2>
+      <Item3>
+        <Expression Value="Overwrite"/>
+      </Item3>
+      <Item4>
+        <Expression Value="InputEdit.Text"/>
+      </Item4>
+      <Item5>
+        <Expression Value="OutputEdit.Text"/>
+      </Item5>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>
