@@ -69,7 +69,7 @@ begin
       Confirmed := False //asked, not approved
   else
     Confirmed := True; //don't ask
-  if (FileExists(Utf8Decode(DestFileFullName))) and PromptDeletionFlag and
+  if (FileExists(UTF8ToSys(DestFileFullName))) and PromptDeletionFlag and
     Confirmed then
     //need ask and already have file
     if MessageDlg('Внимание!', 'Файл существует в месте назначения. Перезаписать?',
@@ -85,7 +85,7 @@ begin
       [cffOverwriteFile, cffCreateDestDirectory, cffPreserveTime]) then
     begin
       try
-        DeleteFile(InPath + FrameName);
+        DeleteFile(UTF8ToSys(InPath + FrameName));
       except
         Application.MessageBox('Ошибка удаления файла.', 'Ошибка!', MB_ICONERROR);
       end;
@@ -106,7 +106,7 @@ begin
   if Confirmed then
   begin
     try
-      DeleteFile(InPath + FrameName);
+      DeleteFile(UTF8ToSys(InPath + FrameName));
     except
       Application.MessageBox('Ошибка удаления файла.', 'Ошибка!', MB_ICONERROR);
     end;
@@ -155,7 +155,7 @@ begin
   end;
   if CreateFoldersFlag then   //create folders YYYY\MM\DD structure
   begin
-    Fa := FileAge(InPath + FrameName);
+    Fa := FileAge( UTF8ToSys(InPath + FrameName) );
     if Fa <> -1 then
     begin
       FolderTime := FileDateTodateTime(fa);

@@ -109,7 +109,12 @@ begin
   end
   else
   begin
-    Application.MessageBox('Не найден INI-файл.', 'Ошибка!', MB_ICONERROR);
+    Application.MessageBox('Не найден INI-файл. Создаем.', 'Ошибка!', MB_ICONERROR);
+    Ini := TMemINIFile.Create(extractFilePath(application.ExeName)+'filemon.ini');
+    IntervalText.Text:='10';
+    TrayMenu.Checked:=true;
+    WriteIniBoolean(Ini, 'Default', 'TrayMenu', true);
+    Ini.UpdateFile;
     Application.Terminate;
   end;
   if not TrayMenu.Checked then
@@ -215,7 +220,7 @@ procedure TForm1.ProcessFiles();
 var
   Info: TSearchRec;
 begin
-  if FindFirst(InputEdit.Text + '*.' + FileType, faAnyFile, Info) = 0 then
+  if FindFirstUTF8(InputEdit.Text + '*.' + FileType, faAnyFile, Info) = 0 then
   begin
     repeat
       FrameName := Info.Name;
@@ -233,7 +238,7 @@ begin
         Form2.showModal;
         Form2.Close;
       end;
-    until FindNext(Info) <> 0;
+    until FindNextUTF8(Info) <> 0;
   end;
   FindClose(Info);
   Form2.OutFileName.Text := '';
